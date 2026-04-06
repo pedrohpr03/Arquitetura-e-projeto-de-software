@@ -1,6 +1,7 @@
 package autenticacao;
 
-public class MecanismoBiometria implements MecanismoAuth {
+// Bridge: implementação concreta do mecanismo por biometria
+public class VerificacaoBiometrica implements MecanismoAuth {
 
     @Override
     public boolean autenticar(String usuario) {

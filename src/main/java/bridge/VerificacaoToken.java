@@ -1,6 +1,7 @@
 package autenticacao;
 
-public class MecanismoToken implements MecanismoAuth {
+// Bridge: implementação concreta do mecanismo por token OTP
+public class VerificacaoToken implements MecanismoAuth {
 
     @Override
     public boolean autenticar(String usuario) {
